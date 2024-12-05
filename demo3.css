@@ -122,9 +122,9 @@ body{
     width: 100%;
 }
 
-@media only screen and (min-width: 1660px){
+@media only screen and (min-width: 2560px){
     .cd__main{
-      max-width: 1660px;
+      max-width: 2560px;
       margin-left: auto;
       margin-right: auto; 
       padding: 24px;

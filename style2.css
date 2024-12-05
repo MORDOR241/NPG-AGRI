@@ -8,8 +8,9 @@
 
 body {
   background: rgb(250, 250, 250) url(http://lorempixel.com/1920/1080/nature/);
-  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-family:   system-ui;
 }
+
 
 a {
   color: inherit;
@@ -36,6 +37,7 @@ a {
   padding: 0px 15px 0px 10px;
 }
 
+
 .cd__intro .img-CNH {
   width: 100%;
 }
@@ -46,6 +48,16 @@ a {
   }
   .cd__intro .img-CN {
     border-radius: 50%;
+  }
+  .cd__intro .img-CNH {
+    width: 50%;
+  }
+  .cd__intro .img-CN {
+    width: 50%;
+  }
+  .cd__intro .hr-Line {
+    width: 100%;
+    
   }
 }
 @media only screen and (min-width: 768px) {
@@ -67,12 +79,30 @@ a {
   .cd__intro .h1 {
     font-size: 26px;
   }
+  .cd__intro .hr-Line {
+    width: 100%;
+    
+  }
 }
 @media only screen and (min-width: 1024px) {
   .cd__intro .img-CNH {
     width: 75%;
   }
+  .cd__intro .hr-Line {
+    width: 100%;
+    
+  }
 }
+@media only screen and (min-width: 1440px) {
+  .cd__intro .img-CNH {
+    width: 75%;
+  }
+  .cd__intro .hr-Line {
+    width: 100%;
+    
+  }
+}
+
 /*======================================================
                           Navbar
   ======================================================*/
@@ -392,7 +422,7 @@ a {
   font-size: 1.8em;
   letter-spacing: 4px;
   /*   opacity: 0; */
-  padding: 10px 0;
+  padding: 10px ;
   text-align: right;
   text-transform: uppercase;
   -webkit-transition: color 0.3s ease;
@@ -411,13 +441,7 @@ a {
 /*======================================================
                    Responsive BUTTON 
   ======================================================*/
-body {
-  font-family: "Open Sans", sans-serif;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
+
 
 .buttonContainer{
   margin-top: 15px;
@@ -470,7 +494,7 @@ a.button:hover {
 }
 
 .container{
-  max-width: 1170px;
+  max-width: 1440px;
   margin:auto;
 }
 .row{
